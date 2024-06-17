@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-repeat: no-repeat;
+    background: url(img/gradient.avif);
+    background-size: cover;
+}
+
+.img1 {
+    margin-left: 280px;
+    margin-top: 100px;
+    transition: all 0.8;
+    cursor: pointer;
+}
+
+.img1:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgb(255, 255, 255));
+    filter: drop-shadow(15px 10px 5px rgba(142, 255, 157, 0.944));
+}
+
+.img2 {
+    margin-left: 280px;
+    margin-top: 90px;
+    transition: all 0.8;
+    cursor: pointer;
+}
+
+.img2:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgb(255, 255, 255));
+    filter: drop-shadow(15px 10px 5px rgba(0, 255, 225, 0.944));
+}
+
+.img3 {
+    margin-left: 280px;
+    margin-top: 90px;
+    margin-bottom: 100px;
+    transition: all 0.8;
+    cursor: pointer;
+}
+
+.img3:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgb(255, 255, 255));
+    filter: drop-shadow(15px 10px 5px rgba(0, 191, 255, 0.944));
+}
+
+
+.img4 {
+    margin-left: 280px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    transition: all 0.8;
+    cursor: pointer;
+}
+
+.img4:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgb(255, 255, 255));
+    filter: drop-shadow(15px 10px 5px rgba(47, 0, 255, 0.944));
+}
+
+.vi {
+    margin-left: 400px;
+    margin-bottom: 100px;
+}

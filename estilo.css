@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url(img/fundo_nome.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 0;
+    margin: 0;
+    max-width: 100wh;
+
+}
+
+a {
+    color:white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    font-size: 13px; 
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding-right: 20%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'bona nova';
+    height: 8vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+
+
+
+
